@@ -8,6 +8,7 @@ import {
 } from "react-native-responsive-screen";
 import Categories from "../components/categories";
 import FoodItems from "../components/recipes";
+import { TouchableOpacity } from "react-native";
 
 export default function HomeScreen() {
     const [activeCategory, setActiveCategory] = useState("Chicken");
